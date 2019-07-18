@@ -5,6 +5,8 @@ def register_user():
     username_info = username.get()
     password_info = password.get()
 
+    #added comment for git
+
     file = open(username_info + ".txt", "w")
     file.write(username_info + "\n")
     file.write(password_info)
